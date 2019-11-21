@@ -1,0 +1,24 @@
+body{
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+#navbar{
+    background-image: url(gif-coala.gif);
+    height: 218px;
+    width: 950px;
+    border-radius: 30%;
+    color: rgb(5, 5, 1);
+    padding: 20px;
+    font-size: 22px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    text-transform: uppercase;
+}
