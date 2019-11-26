@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#topbar{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  
+}
+
+.topbar__menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+  
+}
+
+.topbar__menu__item{
+  text-decoration: none;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+
+.topbar__call-to-action{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: goldenrod;
+  font-size: 13px;
+  border: goldenrod 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 8px;
+}
